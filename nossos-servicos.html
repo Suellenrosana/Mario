@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mario Bros - Nossos Serviços</title>
+</head>
+
+<body>
+    <div class="mascara-formulario" onclick="esconderform()"></div>
+    <div class="header">
+        <a href="index.html">Home</a>
+        <a href="https://api.whatsapp.com/send?phone=5512981562054&text=Ola!%20Preciso%20da%20ajuda%20dos%20irm%C3%A3os%20Marios."
+            class="link-whatsapp">Fale Conosco</a>
+    </div>
+    <div class="caixa-mae">
+        <div class="caixa-principal">
+            <h1 class="nossos-servicospag"><a>Nossos serviços</a></h1><br>
+            <h2 class="nossos-servicospag2"><a> 🔧 Encanador Residencial.<br>
+                🔧 Instalação e Limpeza de Caixas d'água.<br>
+                🔧 Caça-Vazamentos.<br>
+                🔧 Instalação e Manutenção de Registros e Boias.<br>
+                🔧 Instalação de Vaso Sanitário e Cerâmicas.<br> 
+                🔧 Inspeção e Verificação Hidráulica.</a></h2>
+            <button onclick="mostrarform()"><a>Entre em Contato</a></button>
+        </div>
+        <div> <img src="./img/mario.png" alt="Logo Mario e Luigi" class="imagem-mario-luigi"></div>
+    </div>
+    <div class="caixa-video">
+        <video src="./img/video.mp4 " autoplay muted loop></video>
+        <div class="mascara"></div>
+    </div>
+    <a href="https://api.whatsapp.com/send?phone=5512981562054&text=Ola!%20Preciso%20da%20ajuda%20dos%20irm%C3%A3os%20Marios."
+        class="link-whatsapp">
+        <img src="./img/whatsapp.png" alt="Link para Whatsapp">
+        </img>
+    </a>
+    <form class="formulario-fale-conosco" action="https://formcarry.com/s/cL_LkCJv3Cf" method="POST"
+        enctype="multipart/form-data">
+        <input placeholder="Seu nome:" type="text" name="nome">
+        <input placeholder="Seu telefone:" type="tel" name="telefone">
+        <input placeholder="Seu E-mail:">
+        <textarea placeholder="Digite seu problema aqui!" name="duvida"></textarea>
+        <button type="submit">Pedir Orçamento</button>
+    </form>
+
+</body>
+<script src="scripts.js"></script>
+
+</html>
