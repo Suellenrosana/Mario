@@ -14,7 +14,7 @@ Web site destinado aos prestadores de serviços, assim como a dupla famosa e int
 <li>RESPOSIVIDADE adaptando o site para qualquer modalidade de acesso celular, notebook, Tablet e PC.
 </ul>
 <h2>🔍 Design Web</h2>
-<img src="https://github.com/Suellenrosana/Clean-pet-css1/blob/master/CSS1%20We%20care.png?raw=true">
+<img src="https://github.com/Suellenrosana/Mario-Bros/blob/main/Projeto%20Mario.jpg?raw=true">
 
 
 
